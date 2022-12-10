@@ -1,0 +1,44 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.PengusirBurung" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorSecondaryVariant">@color/colorSecondaryVariant</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+
+        <item name="textAppearanceHeadline1">@style/TextAppearance.Zero.Headline1</item>
+        <item name="textAppearanceHeadline2">@style/TextAppearance.Zero.Headline2</item>
+        <item name="textAppearanceHeadline3">@style/TextAppearance.Zero.Headline3</item>
+        <item name="textAppearanceHeadline4">@style/TextAppearance.Zero.Headline4</item>
+        <item name="textAppearanceHeadline5">@style/TextAppearance.Zero.Headline5</item>
+        <item name="textAppearanceHeadline6">@style/TextAppearance.Zero.Headline6</item>
+
+        <item name="textAppearanceSubtitle1">@style/TextAppearance.Zero.Subtitle1</item>
+        <item name="textAppearanceSubtitle2">@style/TextAppearance.Zero.Subtitle2</item>
+        <item name="textAppearanceSubtitle3">@style/TextAppearance.Zero.Subtitle3</item>
+        <item name="textAppearanceSubtitle4">@style/TextAppearance.Zero.Subtitle4</item>
+
+        <item name="textAppearanceBody1">@style/TextAppearance.Zero.Body1</item>
+        <item name="textAppearanceBody2">@style/TextAppearance.Zero.Body2</item>
+        <item name="textAppearanceBody3">@style/TextAppearance.Zero.Body3</item>
+        <item name="textAppearanceBody4">@style/TextAppearance.Zero.Body4</item>
+        <item name="textAppearanceBody5">@style/TextAppearance.Zero.Body5</item>
+
+        <item name="textAppearanceButton">@style/TextAppearance.Zero.Button.M</item>
+        <item name="textAppearanceButtonS">@style/TextAppearance.Zero.Button.S</item>
+
+        <item name="textAppearanceCaption">@style/TextAppearance.Zero.Other1</item>
+        <item name="textAppearanceOverline">@style/TextAppearance.Zero.Other2</item>
+        <item name="textAppearanceOther1">@style/TextAppearance.Zero.Other1</item>
+        <item name="textAppearanceOther2">@style/TextAppearance.Zero.Other2</item>
+        <item name="textAppearanceOther3">@style/TextAppearance.Zero.Other3</item>
+        <item name="textAppearanceOther4">@style/TextAppearance.Zero.Other4</item>
+    </style>
+</resources>

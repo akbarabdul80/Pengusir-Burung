@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--region Theme Typography-->
+    <attr name="textAppearanceReferral" format="reference" />
+    <attr name="textAppearanceSubtitle1" format="reference" />
+    <attr name="textAppearanceSubtitle3" format="reference" />
+    <attr name="textAppearanceSubtitle4" format="reference" />
+    <attr name="textAppearanceBody3" format="reference" />
+    <attr name="textAppearanceBody4" format="reference" />
+    <attr name="textAppearanceBody5" format="reference" />
+    <attr name="textAppearanceButtonS" format="reference" />
+    <attr name="textAppearanceOther1" format="reference" />
+    <attr name="textAppearanceOther2" format="reference" />
+    <attr name="textAppearanceOther3" format="reference" />
+    <attr name="textAppearanceOther4" format="reference" />
+    <attr name="slidingText" format="reference" />
+    <attr name="buttonTextOnly" format="reference" />
+    <!--endregion Theme Typography-->
+</resources>
