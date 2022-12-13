@@ -14,4 +14,6 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="colorAccent">#313131</color>
+    <color name="gray">#F0F0F0</color>
+    <color name="placeholder_bg">#dddddd</color>
 </resources>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "313229491725",
+    "firebase_url": "https://pengusir-burung-pmld-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "pengusir-burung-pmld",
+    "storage_bucket": "pengusir-burung-pmld.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:313229491725:android:ff21e632ecfd32bbf7df44",
+        "android_client_info": {
+          "package_name": "com.zero.pengusirburung"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "313229491725-22ni5mv6o1vdfgtaiesei29nt8455ckq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9kUDg88Wt83u0JIAMsl9XVQLQAVTkA2Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "313229491725-22ni5mv6o1vdfgtaiesei29nt8455ckq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

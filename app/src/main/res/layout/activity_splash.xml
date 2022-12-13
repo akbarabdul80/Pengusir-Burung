@@ -5,10 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorPrimary"
-    tools:context=".SplashActivity">
+    tools:context=".ui.splash.SplashActivity">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/ivLogo"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:src="@drawable/img_logo"
