@@ -64,8 +64,8 @@ class GraphAdapter(
                             })
                         }
 
-                        viewModel.addDataDay(dataItem[0])
-                        viewModel.addDataTotal(dataItem.sum())
+                        viewModel.addDataDay(dataItem[0], getItemPosition(item))
+                        viewModel.addDataTotal(dataItem.sum(), getItemPosition(item))
 
                         val dataMonthList: MutableList<String> = mutableListOf()
 
@@ -88,7 +88,7 @@ class GraphAdapter(
 
                         it.lineView.setShowPopup(LineView.SHOW_POPUPS_MAXMIN_ONLY)
 
-                        Log.e("Data", monthList.toString())
+                        Log.e("Data", dataItem[0].toString())
                     }
 
                     override fun onCancelled(error: DatabaseError) {

@@ -26,4 +26,9 @@
     <string name="title_detected_today">Total Hari Ini</string>
     <string name="title_total">Total</string>
     <string name="title_total_detected">Total Detected</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_trigger">Trigger</string>
+    <string name="title_pilih_tower">Pilih Tower</string>
+    <string name="title_ok">Ok</string>
 </resources>

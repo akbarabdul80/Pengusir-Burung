@@ -228,90 +228,17 @@
 
     </LinearLayout>
 
-
-    <!--    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout-->
-    <!--        android:id="@+id/swDashboard"-->
-    <!--        android:layout_width="match_parent"-->
-    <!--        android:layout_height="0dp"-->
-    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
-    <!--        app:layout_constraintTop_toBottomOf="@+id/cardView2">-->
-
-    <!--        <LinearLayout-->
-    <!--            android:layout_width="match_parent"-->
-    <!--            android:layout_height="match_parent"-->
-    <!--            android:gravity="center_horizontal"-->
-    <!--            android:orientation="vertical">-->
-
-    <!--            <LinearLayout-->
-    <!--                android:layout_width="match_parent"-->
-    <!--                android:layout_height="wrap_content"-->
-    <!--                android:layout_marginTop="10dp"-->
-    <!--                android:gravity="center"-->
-    <!--                android:orientation="vertical">-->
-
-    <!--                <TextView-->
-    <!--                    android:layout_width="350dp"-->
-    <!--                    android:layout_height="wrap_content"-->
-    <!--                    android:layout_marginBottom="5dp"-->
-    <!--                    android:text="@string/title_history"-->
-    <!--                    android:textColor="@color/black"-->
-    <!--                    android:textSize="16sp" />-->
-
-    <!--                <LinearLayout-->
-    <!--                    android:id="@+id/llNull"-->
-    <!--                    android:layout_width="match_parent"-->
-    <!--                    android:layout_height="300dp"-->
-    <!--                    android:gravity="center"-->
-    <!--                    android:orientation="vertical"-->
-    <!--                    android:visibility="gone"-->
-    <!--                    tools:ignore="UseCompoundDrawables">-->
-
-    <!--                    <ImageView-->
-    <!--                        android:layout_width="140dp"-->
-    <!--                        android:layout_height="140dp"-->
-    <!--                        android:contentDescription="@string/title_null"-->
-    <!--                        android:src="@drawable/ic_data_kosong" />-->
-
-    <!--                    <TextView-->
-    <!--                        android:layout_width="wrap_content"-->
-    <!--                        android:layout_height="wrap_content"-->
-    <!--                        android:layout_marginTop="10dp"-->
-    <!--                        android:text="@string/title_data_null" />-->
-
-    <!--                </LinearLayout>-->
-
-    <!--                <com.facebook.shimmer.ShimmerFrameLayout-->
-    <!--                    android:id="@+id/shDashboard"-->
-    <!--                    android:layout_width="350dp"-->
-    <!--                    android:layout_height="wrap_content"-->
-    <!--                    android:visibility="visible">-->
-
-    <!--                    <LinearLayout-->
-    <!--                        android:layout_width="match_parent"-->
-    <!--                        android:layout_height="match_parent"-->
-    <!--                        android:orientation="vertical">-->
-
-    <!--                        <include layout="@layout/list_shimmer" />-->
-
-    <!--                        <include layout="@layout/list_shimmer" />-->
-
-    <!--                        <include layout="@layout/list_shimmer" />-->
-
-    <!--                        <include layout="@layout/list_shimmer" />-->
-
-    <!--                    </LinearLayout>-->
-    <!--                </com.facebook.shimmer.ShimmerFrameLayout>-->
-
-    <!--                <androidx.recyclerview.widget.RecyclerView-->
-    <!--                    android:id="@+id/rvHistory"-->
-    <!--                    android:layout_width="350dp"-->
-    <!--                    android:layout_height="wrap_content"-->
-    <!--                    android:scrollbars="none"-->
-    <!--                    android:visibility="invisible" />-->
-
-    <!--            </LinearLayout>-->
-    <!--        </LinearLayout>-->
-    <!--    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>-->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:contentDescription="@string/title_null"
+        android:src="@drawable/ic_play"
+        android:tint="@color/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
