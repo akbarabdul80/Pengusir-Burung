@@ -18,6 +18,8 @@ import com.zero.pengusirburung.root.RootViewModel
 import com.zero.pengusirburung.ui.main.adapter.GraphAdapter
 import com.zero.pengusirburung.ui.main.bottom.MainBottomFragment
 import com.zero.zerobase.presentation.viewbinding.BaseActivity
+import java.text.SimpleDateFormat
+import java.util.*
 
 
 class MainActivity : BaseActivity<ActivityMainBinding>(), ValueEventListener {
@@ -51,6 +53,20 @@ class MainActivity : BaseActivity<ActivityMainBinding>(), ValueEventListener {
                 if (listTower.isNotEmpty()) {
                     MainBottomFragment.newInstance(listTower)
                         .show(supportFragmentManager, "Bottom User")
+                }
+            }
+            when (SimpleDateFormat("HH").format(Date()).toInt()) {
+                in 0..11 -> {
+                    tvDay.text = "Selamat Pagi,"
+                }
+                in 12..14 -> {
+                    tvDay.text = "Selamat Siang,"
+                }
+                in 15..17 -> {
+                    tvDay.text = "Selamat Sore,"
+                }
+                else -> {
+                    tvDay.text = "Selamat Malam,"
                 }
             }
         }
